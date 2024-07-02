@@ -1497,6 +1497,8 @@ img.banner_img3 {
 }
 .displaylast{
   left: 15px;
+  opacity: 1;
+  display: block;
 }
 .displaylast h5{
   font-size: var(--font-18);

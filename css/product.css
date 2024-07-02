@@ -1207,3 +1207,48 @@ a.fcolr {
   left: -400px;
   top: 43px;
 }
+
+.cartadd {
+  padding: 20px;
+}
+.progress-bar {
+  background: #dc3545 !important;
+}
+.progres_one {
+  height: 6px !important;
+}
+.greyfontopacity {
+  opacity: 0.4;
+  font-size: var(--font-14-);
+}
+.redfontnumber {
+  font-size: 18px;
+  color: #ef262c;
+  font-weight: 600;
+  font-family: var(--jostfont);
+}
+.redspan {
+  color: var(--color-eleven);
+}
+.cartadd p {
+  font-size: var(--font-13-);
+}
+.pant_img img {
+  width: 65px;
+  height: 75px;
+}
+.modaltextwidth {
+  width: 60%;
+}
+.crossiconcart {
+  top: 0px;
+  right: 10px;
+}
+.cartgreybtn {
+  background-color: var(--background-fourty);
+  font-size: var(--font-13-);
+}
+.cartbtn {
+  background: var(--background-fourtyone);
+  border-radius: 2px;
+}

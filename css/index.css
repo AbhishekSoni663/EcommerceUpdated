@@ -456,7 +456,8 @@ color: var(--color-two);
 /*  */
 
 /*  */
-li {
+
+.box_one li {
   list-style: none;
 }
 .box_one a {

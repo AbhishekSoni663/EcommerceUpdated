@@ -1075,3 +1075,13 @@ bdi.point {
   display: none;
 }
 /* saide bar end */
+
+.shop-drp-menu{
+  z-index: 9999 !important;
+  width: 1260px;
+  left: -400px;
+  top: 43px;
+}
+.shop-drp-menu1{
+  z-index: 9999 !important;
+}

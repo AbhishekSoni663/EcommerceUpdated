@@ -33,3 +33,83 @@ h1.elementor_heading {
     font-size: var(--font-20);
 }
 }
+
+@media(max-width:575px) {
+    .third-cat-a img {
+        width: 22px;
+    }
+
+    .third-open-menu {
+        width: 22px !important;
+    }
+    .fcolr {
+        font-size: var(--font-15) !important;
+    }
+
+    .fcolr-a {
+        font-size: var(--font-14) !important;
+    }
+
+    .ft-icons i {
+        font-size: var(--font-15);
+    }
+
+    .ft-copy p {
+        font-size: var(--font-14) !important;
+    }
+
+    .ft-copy-select p {
+        font-size: var(--font-14) !important;
+    }
+
+    .ft-copy-select select {
+        font-size: var(--font-14) !important;
+    }
+}
+
+@media(max-width:767px) {
+    .second-drop {
+        width: 70px !important;
+        background: none;
+    }
+
+    .box_one-new {
+        padding-left: 0px !important;
+    }
+}
+@media(max-width:991px){
+    .elementor_box{
+        position: unset;
+    }
+    .all-contact-detail{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    section.decoding {
+        background-image: url(../images/decoding_img.jpg);
+        width: 100%;
+        height: 222px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec-ul-1{
+        display: flex;
+        flex-direction:  column;
+    }
+    .second-offer{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-inp{
+        width:80px !important
+    }
+    .first-group{
+        width:100% !important;
+    }
+    /* .contact-para{
+        margin-top: 20px !important;
+    } */
+     .off-select1{
+        width: 80px !important;
+     }
+}

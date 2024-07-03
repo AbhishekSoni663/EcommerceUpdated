@@ -1530,7 +1530,7 @@ img.banner_img3 {
   padding: 10px 25px;
 }
   .custom-nav {
-    display: none;
+    display: none !important;
   }
   .box-card1 {
     height: 256px;
@@ -1618,12 +1618,12 @@ img.banner_img3 {
 .item-img p {
   font-family: "Jost", sans-serif;
   font-weight: 500;
-  color: whitesmoke;
+  color: rgb(26, 21, 21);
   opacity: 0.8;
 }
 @media(max-width:475px){
   .item-img {
-    min-height: 170px;
+    min-height: 140px;
   }
   .item-img p {
     font-size: 13px;

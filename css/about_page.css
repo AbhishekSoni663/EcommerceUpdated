@@ -80,3 +80,17 @@ i.fa-solid.fa-store {
 .aboutfore2 {
     font-weight: var(--font-weight-400);
 }
+
+.ft-copy p{
+    color: var(--color-white);
+    opacity: 0.8;
+  }
+  .ft-copy-select p{
+    color: var(--color-white);
+    opacity: 0.8;
+  }
+  .ft-copy-select select{
+    color: var(--color-white);
+    opacity: 0.8;
+    background: none !important;
+  }

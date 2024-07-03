@@ -1105,7 +1105,7 @@ div#productsearch::-webkit-scrollbar-track {
     width: 55%;
     font-size: var(--font-14);
     font-weight:var(--font-weight-600);
-    color: var(--color-two) !important;
+    /* color: var(--color-two) !important; */
 }
 .second-offer{
     width:260px;
@@ -1252,3 +1252,81 @@ a.fcolr {
   background: var(--background-fourtyone);
   border-radius: 2px;
 }
+
+
+
+/* background color */
+.box_one a {
+  font-size: var(--font-17);
+  color:var(--color-white);
+  opacity: 0.7;
+  /* font-family: sans-serif; */
+}
+.box_botm p {
+  font-size: var(--font-16);
+  font-family: sans-serif;
+  color: var(--color-fourteen);
+}
+.box_botm select {
+  font-size: var(--font-11);
+  /* font-family: sans-serif; */
+  color: var(--color-fourteen);
+}a.fcolr {
+  color: var(--color-white);
+  opacity: 0.8;
+  font-weight: var(--font-weight-600);
+}
+.fcolr{
+  color: white !important;
+  opacity: 0.8;
+}
+
+.ft-copy p{
+  color: var(--color-white);
+  opacity: 0.8;
+}
+.ft-copy-select p{
+  color: var(--color-white);
+  opacity: 0.8;
+}
+.ft-copy-select select{
+  color: var(--color-white);
+  opacity: 0.8;
+  background: none !important;
+}
+
+
+.first-container{
+  background-color: var(--background-fourtyfive);
+}
+.first-select , .first-select2{
+  background-color: var(--background-fourtytwo) !important;
+  color: var(--color-whitesmoke)!important;
+}
+.first-select , .first-select2{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='white' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+}
+.first-nav li a , .free-ship a , .social-icon i{
+  color: var(--color-whitesmoke) ;
+}
+.second-drop{
+  background-color: var(--background-fourtyfour);
+}
+.sec-ul-1 li a {
+  color: var(--color-thirtyeight) !important;
+}
+.head2-a{
+  color: var(--color-thirtynine) !important;
+}
+.second-offer a{
+  color: var(--color-thirtyeight);
+}
+.first-inp , .off-select1{
+  color: var(--color-thirtyeight) !important;
+}
+.first-g-span{
+  background-color: var(--background-fourtyfour) !important;
+  color: var(--color-white) !important;
+}
+
+/*  */

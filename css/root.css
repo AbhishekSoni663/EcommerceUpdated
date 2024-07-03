@@ -64,6 +64,8 @@
   --color-primary: #ee403d;
   --color-black: #000000;
   --color-white: #ffffff;
+  --color-whitesmoke: whitesmoke;
+
   --color-four: #ee403dad;
   --color-five: #f5efef;
   --color-six: #5d6494;
@@ -100,6 +102,9 @@
   --color-thirtyfive:#aaa;
 --color-thirty-six:#c9b1da;
 --color-thirtyseven:#be8b94;
+--color-thirtyeight:#000000d1;
+--color-thirtynine:#000000b3;
+
 
   --btn-bg-color: #0046be;
 
@@ -129,6 +134,7 @@
   --border-sixteen: 4px solid #777;
   --border-seventeen: 2px solid #dee0ea;
   --border-eighteen: 2px solid #ee403d;
+  --border-ninteen:1px solid whitesmoke;
 
 
 
@@ -179,6 +185,17 @@
   --background-thirtynine:#2d8421;
   --background-fourty:#aeb9be;
   --background-fourtyone:#ef262c;
+  --background-fourtytwo:#19191b;
+  --background-fourtythree:#091928;
+  --background-fourtyfour:#beaf00;
+  --background-fourtyfive:#060707;
+  --background-fourtysix:rgb(123 119 6);
+  --background-fourtyseven:#f9f9f9;
+  --background-fourtyeight:#111111;
+  --background-fourtynine:#2c2c2c;
+
+
+
   --box-shadow-two: 0 0 0 0 rgb(8 8 8 / 25%);
   --box-shadow-one: 5px 5px 0 #f8f8f8;
   --box-shadow-two: 0 3px 4px 0 rgba(44, 71, 146, 0.25);

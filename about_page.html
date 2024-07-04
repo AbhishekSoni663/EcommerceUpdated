@@ -802,7 +802,31 @@
     <!-- Modal Bag Icon End -->
 
     <script src="https://kit.fontawesome.com/fd34e350c0.js" crossorigin="anonymous"></script>
+  <!-- Header dropdow btn Categories Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var dropdownButton = document.getElementById('dropdownMenuButton');
+      var dropdownMenu = document.querySelector('.drp-menu1');
 
+      dropdownButton.addEventListener('click', function (event) {
+        event.stopPropagation();
+        dropdownMenu.classList.toggle('custom-show');
+        dropdownMenu.classList.toggle('custom-hide');
+      });
+
+      document.addEventListener('click', function (event) {
+        if (!dropdownButton.contains(event.target) && dropdownMenu.classList.contains('custom-show')) {
+          dropdownMenu.classList.remove('custom-show');
+          dropdownMenu.classList.add('custom-hide');
+        }
+      });
+
+      dropdownMenu.addEventListener('click', function (event) {
+        event.stopPropagation();
+      });
+    });
+  </script>
+  <!--  -->
 </body>
 
 </html>

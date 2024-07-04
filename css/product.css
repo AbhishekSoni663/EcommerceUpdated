@@ -1126,7 +1126,8 @@ div#productsearch::-webkit-scrollbar-track {
   font-weight: var(--font-weight-600);
 }
 .two-select select{
-  color: var(--color-two);
+  color: var(--color-whitesmoke);
+  background-color: var(--background-fourtyfive);
   font-size: var(--font-14);
   font-weight: var(--font-weight-600);
 }
@@ -1284,25 +1285,34 @@ a.fcolr {
 .ft-copy p{
   color: var(--color-white);
   opacity: 0.8;
+  font-family: var(--Jost-sans-serif);
+
 }
 .ft-copy-select p{
   color: var(--color-white);
   opacity: 0.8;
+  font-family: var(--Jost-sans-serif);
+
 }
 .ft-copy-select select{
   color: var(--color-white);
+  background-color: var(--background-fourtynine);
   opacity: 0.8;
-  background: none !important;
+  font-family: var(--Jost-sans-serif);
+  /* background: none !important; */
 }
 
 
 .first-container{
   background-color: var(--background-fourtyfive);
 }
-.first-select , .first-select2{
-  background-color: var(--background-fourtytwo) !important;
-  color: var(--color-whitesmoke)!important;
+.two-select select{
+  color: var(--color-whitesmoke);
+  background-color:var(--background-fourtyfive);
+  font-size: var(--font-14);
+  font-weight: var(--font-weight-600);
 }
+
 .first-select , .first-select2{
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='white' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
 }

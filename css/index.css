@@ -93,7 +93,8 @@ div#wishlistModal .modal-dialog {
   font-weight: var(--font-weight-600);
 }
 .two-select select{
-  color: var(--color-two);
+  color: var(--color-whitesmoke);
+  background-color: var(--background-fourtyfive);
   font-size: var(--font-14);
   font-weight: var(--font-weight-600);
 }
@@ -2976,15 +2977,21 @@ a.skuye:hover {
 .ft-copy p{
   color: var(--color-white);
   opacity: 0.8;
+  font-family: var(--Jost-sans-serif);
+
 }
 .ft-copy-select p{
   color: var(--color-white);
   opacity: 0.8;
+  font-family: var(--Jost-sans-serif);
+
 }
 .ft-copy-select select{
   color: var(--color-white);
+  background-color: var(--background-fourtynine);
   opacity: 0.8;
-  background: none !important;
+  font-family: var(--Jost-sans-serif);
+  /* background: none !important; */
 }
 
 /*  */

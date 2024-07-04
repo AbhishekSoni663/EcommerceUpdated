@@ -83,14 +83,27 @@ i.fa-solid.fa-store {
 
 .ft-copy p{
     color: var(--color-white);
+  font-family: var(--Jost-sans-serif);
+
     opacity: 0.8;
   }
   .ft-copy-select p{
     color: var(--color-white);
+  font-family: var(--Jost-sans-serif);
+
     opacity: 0.8;
   }
   .ft-copy-select select{
     color: var(--color-white);
+    background-color: var(--background-fourtynine);
     opacity: 0.8;
-    background: none !important;
+    font-family: var(--Jost-sans-serif);
+    /* background: none !important; */
   }
+  .two-select select{
+    color: var(--color-whitesmoke);
+    background-color: var(--background-fourtyfive);
+    font-size: var(--font-14);
+    font-weight: var(--font-weight-600);
+  }
+  

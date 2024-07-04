@@ -268,6 +268,9 @@ i.fa-solid.fa-store {
 }
 
 /* background color */
+.box_one a:hover{
+  color: rgb(151, 167, 180) !important;
+}
 .box_one a {
   font-size: var(--font-17);
   color:var(--color-white);
@@ -321,8 +324,15 @@ i.fa-solid.fa-store {
 .first-nav li a , .free-ship a , .social-icon i{
   color: var(--color-whitesmoke) ;
 }
+.first-nav li a:hover, .free-ship a:hover, .social-icon i:hover {
+  color: var(--color-fourty) !important;
+}
 .second-drop{
   background-color: var(--background-fourtyfour);
+}
+.second-drop:hover , .first-g-span:hover{
+  background-color: #19191b !important;
+  color: white;
 }
 .sec-ul-1 li a {
   color: var(--color-thirtyeight);

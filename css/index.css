@@ -516,7 +516,7 @@ color: var(--color-two);
   }
 }
 .phone_img1 {
-  background: url(../images/smartphon.avif) , url('https://media.genics.in/common/image-place-holder.webp');
+  background: url(../images/30193.jpg) , url('https://media.genics.in/common/image-place-holder.webp');
   width: 100%;
   height: 700px;
   max-height: 700px;
@@ -527,7 +527,7 @@ color: var(--color-two);
   background-repeat: no-repeat;
 }
 .phone_img2 {
-  background: url(../images/smartphon.avif), url(https://media.genics.in/common/image-place-holder.webp);
+  background: url(../images/30193.jpg), url(https://media.genics.in/common/image-place-holder.webp);
   height: 700px;
   max-height: 700px;
   background-color: #19191b;
@@ -537,7 +537,7 @@ color: var(--color-two);
   background-position: center;
 }
 .phone_img3 {
-  background: url(../images/smartphon.avif), url('https://media.genics.in/common/image-place-holder.webp');
+  background: url(../images/30193.jpg), url('https://media.genics.in/common/image-place-holder.webp');
   width: 100%;
   height: 700px;
   background-color: #19191b;
@@ -587,7 +587,9 @@ color: var(--color-two);
   -ms-flex-align: center;
   align-items: center;
 }
-
+.box_one a:hover{
+  color: rgb(151, 167, 180) !important;
+}
 .box {
    width: 200px;
    height: 210px;
@@ -1791,6 +1793,10 @@ img.banner_img3 {
   box-shadow: var(--box-shadow-thirteen);
   cursor: pointer;
 }
+.custom-navOne button:hover{
+  background-color: var(--background-fourtyfour);
+  color: var(--color-black);
+}
 /* /  END CSS/ */
 
 /* Section 8 Deals Css Start */
@@ -2610,17 +2616,24 @@ display: block;
 }
 
 .metal1{
-  color:var(--color-white);
+  color:var(--color-black);
 }
 
 .metal {
-  background-color: var(--color-black);
+  background-color: var(--background-white);
   border-radius: 50%;
-  padding: 5px 10px;
+  padding: 5px 0px;
+}
+.metal i{
+  padding: 6px 10px;
+  border-radius: 50%;
+}
+.metal  i:hover{
+  background-color: var(--background-red);
+  color: var(--color-white);
 }
 .metal:hover{
-  background-color: #f90d37; 
-  color: var(--color-white); 
+  background-color: var(--background-red);
 }
 .modal-content-new {
   max-width: 1020px !important;
@@ -2888,8 +2901,15 @@ a.skuye:hover {
 .first-nav li a , .free-ship a , .social-icon i{
   color: var(--color-whitesmoke) ;
 }
+.first-nav li a:hover, .free-ship a:hover, .social-icon i:hover {
+  color: var(--color-fourty) !important;
+}
 .second-drop{
   background-color: var(--background-fourtyfour);
+}
+.second-drop:hover , .first-g-span:hover{
+  background-color: #19191b !important;
+  color: white;
 }
 .sec-ul-1 li a {
   color: var(--color-thirtyeight);
@@ -2945,6 +2965,9 @@ a.skuye:hover {
 .chance-btn{
   background: var(--background-fourtysix) !important;
   color: var(--color-whitesmoke) !important;
+}
+.chance-btn:hover{
+  background-color: rgb(0 147 242) !important;
 }
 .chance-p{
   color: var(--color-whitesmoke) !important;
